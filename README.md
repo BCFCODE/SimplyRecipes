@@ -1,3 +1,3 @@
 # SimplyRecipes
-Training and Fun with HTML &amp; CSS
-Working on it... (on leisure time)
+
+Embarking on an Exciting HTML & CSS Adventure: Crafting Excellence Through Training and Fun! 🚀✨
