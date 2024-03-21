@@ -4,10 +4,10 @@ const getElement = (selector) => {
   throw Error(`Please double check your class names, there is no ${selector} class`)
 };
 
-const links = getElement('.nav-links')
-const navBtnDOM = getElement('.nav-btn')
+const links = getElement('.navLinks')
+const navBtnDOM = getElement('.navBtn')
 
-navBtnDOM.addEventListener('click',() => {
+navBtnDOM.addEventListener('click', () => {
   links.classList.toggle('show-links')
 })
 

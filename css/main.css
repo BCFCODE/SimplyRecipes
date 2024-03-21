@@ -284,15 +284,15 @@ Navbar
   width: 200px;
 }
 
-.nav-btn {
+.navBtn {
   padding: 0.15rem 0.75rem;
 }
 
-.nav-btn {
+.navBtn {
   font-size: 1.25rem;
 }
 
-.nav-links {
+.navLinks {
   display: flex;
   flex-direction: column;
   /* todo */
@@ -303,7 +303,7 @@ Navbar
 .show-links {
   height: 310px;
 }
-.nav-link {
+.navLink {
   display: block;
   text-align: center;
   text-transform: capitalize;
@@ -313,7 +313,7 @@ Navbar
   border-top: 1px solid var(--grey-500);
   transition: var(--transition);
 }
-.nav-link:hover {
+.navLink:hover {
   color: var(--primary-500);
 }
 .contact-link a {
@@ -321,7 +321,7 @@ Navbar
 }
 
 @media screen and (min-width: 992px) {
-  .nav-btn {
+  .navBtn {
     display: none;
   }
   .navbar {
@@ -335,14 +335,14 @@ Navbar
     height: auto;
     margin-right: 2rem;
   }
-  .nav-links {
+  .navLinks {
     height: auto;
     flex-direction: row;
     align-items: center;
     width: 100%;
     /* background-color: red; */
   }
-  .nav-link {
+  .navLink {
     padding: 0;
     border-top: none;
     margin-right: 1rem;
@@ -737,7 +737,6 @@ Single Recipe Page
 
 ==============================
 */
-
 
 /* 
 ==============================
